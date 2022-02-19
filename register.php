@@ -6,24 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GroomRoom</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/main.js" defer></script>
 </head>
 <body>
     <?php
     include 'nav.php';
-
+    nav(2)
     ?>
     <div class="register">
-        <form action="registeracrtion.php" class="form" method="POST">
+        <form action="registration.php" class="form" method="POST">
             <input type="text" placeholder="ФИО" name="fio">
             <input type="text" placeholder="Логин" name="login">
-            <input type="text" placeholder="Email" name="email">
-            <input type="text" placeholder="Пароль" name="password">
-            <input type="text" placeholder="Еще раз пароль" name="confirm">
-            <labe><input type="checkbox" id="pd">Согласие на обработку ПД</label>
-            <button>Зарегестрироваться</button>
-            <p id="error" class="error"></p>
-        </form>        
+            <input type="email" placeholder="email" name="mail">
+            <input type="password" placeholder="Пароль" name="password">
+            <input type="password" placeholder="Повтор пароля" name="confirm">
+            <label><input type="checkbox">Согласие на обработку ПД</label>
+            <button>Зарегистрироваться</button>
+
+        </form>
+
     </div>
 </body>
 </html>
