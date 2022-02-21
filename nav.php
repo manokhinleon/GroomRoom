@@ -5,7 +5,7 @@ function nav($item)
         "index.php" => "Главная",
         "login.php" => "Вход",
         "register.php" => "Регистрация",
-        "admin.php" => "Администрирование",
+        "admin.php" => "Админ панель",
         "lk.php" => "Личный кабинет",
         "logout.php" => "Выход",
     ];
