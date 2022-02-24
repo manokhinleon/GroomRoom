@@ -13,5 +13,6 @@
     nav(0);
     include 'bd.php';
     ?>
+    
 </body>
 </html>
